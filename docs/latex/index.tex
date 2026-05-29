@@ -1,0 +1,22 @@
+\chapter{Сравнение модифицированных генераторов случайных чисел }
+\hypertarget{index}{}\label{index}\index{Сравнение модифицированных генераторов случайных чисел@{Сравнение модифицированных генераторов случайных чисел}}
+Проект реализует три генератора:\+
+\begin{DoxyItemize}
+\item \doxylink{class_modified_l_c_g}{Modified\+LCG} – линейный конгруэнтный с 64-\/битным состоянием
+\item \doxylink{class_modified_xor_shift}{Modified\+Xor\+Shift} – Xor\+Shift128 с добавлением нелинейности
+\item \doxylink{class_modified_middle_square}{Modified\+Middle\+Square} – модифицированный метод середины квадрата
+\end{DoxyItemize}
+
+Для каждого генератора:\+
+\begin{DoxyItemize}
+\item Генерируются выборки разного объёма (от 1000 до 1000000)
+\item Выполняется семь статистических тестов (хи-\/квадрат, серий, перекрывающихся сумм, минимального расстояния, "{}обезьяны"{}, "{}сжатия"{}, а также замеряется производительность).
+\item Результаты сохраняются в CSV-\/файл и выводятся в консоль.
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{Автор}
+Ваше Имя 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+Год 
+\end{DoxyDate}

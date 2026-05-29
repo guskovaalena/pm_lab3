@@ -1,0 +1,123 @@
+\doxysection{Файл src/\+\+Random\+Tests.h}
+\hypertarget{_random_tests_8h}{}\label{_random_tests_8h}\index{src/RandomTests.h@{src/RandomTests.h}}
+
+
+Набор статистических тестов для случайных последовательностей.  
+
+
+{\ttfamily \+\#include $<$vector$>$}\newline
+{\ttfamily \+\#include "{}Random\+Tests.\+tpp"{}}\newline
+\doxysubsubsection*{Классы}
+\begin{DoxyCompactItemize}
+\item 
+struct \doxymbox{\hyperlink{struct_test_result}{Test\+Result}}
+\begin{DoxyCompactList}\small\item\em Результат выполнения одного теста. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} \doxymbox{\hyperlink{_random_tests_8h_a2e9a505eab8db46f8f31e3879a44bc5e}{chi\+Square\+Test}} (const std::\+vector$<$ double $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Тест хи-\/квадрат на равномерность распределения. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} \doxymbox{\hyperlink{_random_tests_8h_a9bd4b5b724907f6690787c64c09be292}{runs\+Test}} (const std::\+vector$<$ double $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Тест серий (runs test) для проверки независимости битов. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} \doxymbox{\hyperlink{_random_tests_8h_a4ee3c55c759404570c3cb83c98672ab5}{overlapping\+Sums\+Test}} (const std::\+vector$<$ double $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Тест перекрывающихся сумм (overlapping sums). \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} \doxymbox{\hyperlink{_random_tests_8h_a6a84e9dd8924662a18c08242d81a361c}{minimum\+Distance\+Test}} (const std::\+vector$<$ double $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Тест минимального расстояния между точками на единичном квадрате. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} \doxymbox{\hyperlink{_random_tests_8h_ae873fdf1433cacecc5a96269e64147c1}{monkey\+Test}} (const std::\+vector$<$ double $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Тест "{}обезьяны"{} – проверка покрытия 5-\/битовых слов. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename RNG$>$ }\\\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} \doxymbox{\hyperlink{_random_tests_8h_a18d99282fcb4d0fe1ed9343a1d6c0f93}{squeeze\+Test}} (RNG \&rng, int repetitions)
+\begin{DoxyCompactList}\small\item\em Тест "{}сжатия"{} (squeeze) – моделирует многократное умножение. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Набор статистических тестов для случайных последовательностей. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{_random_tests_8h_doc-func-members}
+\doxysubsection{Функции}
+\Hypertarget{_random_tests_8h_a2e9a505eab8db46f8f31e3879a44bc5e}\index{RandomTests.h@{RandomTests.h}!chiSquareTest@{chiSquareTest}}
+\index{chiSquareTest@{chiSquareTest}!RandomTests.h@{RandomTests.h}}
+\doxysubsubsection{\texorpdfstring{chiSquareTest()}{chiSquareTest()}}
+{\footnotesize\ttfamily \label{_random_tests_8h_a2e9a505eab8db46f8f31e3879a44bc5e} 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} chi\+Square\+Test (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ double $>$ \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Тест хи-\/квадрат на равномерность распределения. 
+
+\Hypertarget{_random_tests_8h_a6a84e9dd8924662a18c08242d81a361c}\index{RandomTests.h@{RandomTests.h}!minimumDistanceTest@{minimumDistanceTest}}
+\index{minimumDistanceTest@{minimumDistanceTest}!RandomTests.h@{RandomTests.h}}
+\doxysubsubsection{\texorpdfstring{minimumDistanceTest()}{minimumDistanceTest()}}
+{\footnotesize\ttfamily \label{_random_tests_8h_a6a84e9dd8924662a18c08242d81a361c} 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} minimum\+Distance\+Test (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ double $>$ \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Тест минимального расстояния между точками на единичном квадрате. 
+
+\Hypertarget{_random_tests_8h_ae873fdf1433cacecc5a96269e64147c1}\index{RandomTests.h@{RandomTests.h}!monkeyTest@{monkeyTest}}
+\index{monkeyTest@{monkeyTest}!RandomTests.h@{RandomTests.h}}
+\doxysubsubsection{\texorpdfstring{monkeyTest()}{monkeyTest()}}
+{\footnotesize\ttfamily \label{_random_tests_8h_ae873fdf1433cacecc5a96269e64147c1} 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} monkey\+Test (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ double $>$ \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Тест "{}обезьяны"{} – проверка покрытия 5-\/битовых слов. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em data} & Входная последовательность чисел double. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат:\+ passed, если пропущено менее 5 слов из 32. 
+\end{DoxyReturn}
+\Hypertarget{_random_tests_8h_a4ee3c55c759404570c3cb83c98672ab5}\index{RandomTests.h@{RandomTests.h}!overlappingSumsTest@{overlappingSumsTest}}
+\index{overlappingSumsTest@{overlappingSumsTest}!RandomTests.h@{RandomTests.h}}
+\doxysubsubsection{\texorpdfstring{overlappingSumsTest()}{overlappingSumsTest()}}
+{\footnotesize\ttfamily \label{_random_tests_8h_a4ee3c55c759404570c3cb83c98672ab5} 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} overlapping\+Sums\+Test (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ double $>$ \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Тест перекрывающихся сумм (overlapping sums). 
+
+\Hypertarget{_random_tests_8h_a9bd4b5b724907f6690787c64c09be292}\index{RandomTests.h@{RandomTests.h}!runsTest@{runsTest}}
+\index{runsTest@{runsTest}!RandomTests.h@{RandomTests.h}}
+\doxysubsubsection{\texorpdfstring{runsTest()}{runsTest()}}
+{\footnotesize\ttfamily \label{_random_tests_8h_a9bd4b5b724907f6690787c64c09be292} 
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} runs\+Test (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ double $>$ \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Тест серий (runs test) для проверки независимости битов. 
+
+\Hypertarget{_random_tests_8h_a18d99282fcb4d0fe1ed9343a1d6c0f93}\index{RandomTests.h@{RandomTests.h}!squeezeTest@{squeezeTest}}
+\index{squeezeTest@{squeezeTest}!RandomTests.h@{RandomTests.h}}
+\doxysubsubsection{\texorpdfstring{squeezeTest()}{squeezeTest()}}
+{\footnotesize\ttfamily \label{_random_tests_8h_a18d99282fcb4d0fe1ed9343a1d6c0f93} 
+template$<$typename RNG$>$ \\
+\doxymbox{\hyperlink{struct_test_result}{Test\+Result}} squeeze\+Test (\begin{DoxyParamCaption}\item[{RNG \&}]{rng}{, }\item[{int}]{repetitions}{}\end{DoxyParamCaption})}
+
+
+
+Тест "{}сжатия"{} (squeeze) – моделирует многократное умножение. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em RNG} & Тип генератора. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Аргументы}
+{\em rng} & Генератор случайных чисел. \\
+\hline
+{\em repetitions} & Количество повторений эксперимента. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат:\+ passed, если среднее число шагов близко к 21. 
+\end{DoxyReturn}

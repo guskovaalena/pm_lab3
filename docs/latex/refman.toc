@@ -1,0 +1,186 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Сравнение модифицированных генераторов случайных чисел }{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Дерево директорий}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Алфавитный указатель директорий}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Алфавитный указатель пространств имен}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Пространства имен}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Алфавитный указатель классов}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Классы}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Список файлов}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Файлы}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Директории}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Содержание директории build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}4.3.1}{11}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Содержание директории build}{11}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Содержание директории build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files}{11}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Содержание директории build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}4.3.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IdC}{11}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Содержание директории build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}4.3.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX}{11}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Содержание директории scripts}{12}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Содержание директории src}{12}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Пространства имен}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Пространство имен plot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}distribution}{13}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Переменные}{13}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}bins}{13}{subsubsection.7.1.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1.2}data}{13}{subsubsection.7.1.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.1.3}dpi}{13}{subsubsection.7.1.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.1.4}figsize}{13}{subsubsection.7.1.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.1.5}n}{14}{subsubsection.7.1.1.5}%
+\contentsline {section}{\numberline {7.2}Пространство имен plot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}timing}{14}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Переменные}{14}{subsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.1}df}{14}{subsubsection.7.2.1.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.2}dpi}{14}{subsubsection.7.2.1.2}%
+\contentsline {subsubsection}{\numberline {7.2.1.3}figsize}{14}{subsubsection.7.2.1.3}%
+\contentsline {subsubsection}{\numberline {7.2.1.4}label}{14}{subsubsection.7.2.1.4}%
+\contentsline {subsubsection}{\numberline {7.2.1.5}marker}{14}{subsubsection.7.2.1.5}%
+\contentsline {subsubsection}{\numberline {7.2.1.6}subset}{14}{subsubsection.7.2.1.6}%
+\contentsline {chapter}{\numberline {8}Классы}{15}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Класс Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LCG}{15}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Подробное описание}{15}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Конструктор(ы)}{15}{subsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.2.1}ModifiedLCG()}{15}{subsubsection.8.1.2.1}%
+\contentsline {subsection}{\numberline {8.1.3}Методы}{16}{subsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.3.1}next()}{16}{subsubsection.8.1.3.1}%
+\contentsline {subsubsection}{\numberline {8.1.3.2}nextDouble()}{16}{subsubsection.8.1.3.2}%
+\contentsline {section}{\numberline {8.2}Класс Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Middle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Square}{16}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Подробное описание}{16}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Конструктор(ы)}{17}{subsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.2.1}ModifiedMiddleSquare()}{17}{subsubsection.8.2.2.1}%
+\contentsline {subsection}{\numberline {8.2.3}Методы}{17}{subsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.1}next()}{17}{subsubsection.8.2.3.1}%
+\contentsline {subsubsection}{\numberline {8.2.3.2}nextDouble()}{17}{subsubsection.8.2.3.2}%
+\contentsline {section}{\numberline {8.3}Класс Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Xor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shift}{17}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Подробное описание}{18}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Конструктор(ы)}{18}{subsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.2.1}ModifiedXorShift()}{18}{subsubsection.8.3.2.1}%
+\contentsline {subsection}{\numberline {8.3.3}Методы}{18}{subsection.8.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.3.1}next()}{18}{subsubsection.8.3.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.3.2}nextDouble()}{18}{subsubsection.8.3.3.2}%
+\contentsline {section}{\numberline {8.4}Структура Sample\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stats}{18}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Подробное описание}{19}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Данные класса}{19}{subsection.8.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.1}cv}{19}{subsubsection.8.4.2.1}%
+\contentsline {subsubsection}{\numberline {8.4.2.2}mean}{19}{subsubsection.8.4.2.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.3}stddev}{19}{subsubsection.8.4.2.3}%
+\contentsline {subsubsection}{\numberline {8.4.2.4}variance}{19}{subsubsection.8.4.2.4}%
+\contentsline {section}{\numberline {8.5}Структура Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Result}{20}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Подробное описание}{20}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Данные класса}{20}{subsection.8.5.2}%
+\contentsline {subsubsection}{\numberline {8.5.2.1}passed}{20}{subsubsection.8.5.2.1}%
+\contentsline {subsubsection}{\numberline {8.5.2.2}pvalue}{20}{subsubsection.8.5.2.2}%
+\contentsline {subsubsection}{\numberline {8.5.2.3}statistic}{20}{subsubsection.8.5.2.3}%
+\contentsline {section}{\numberline {8.6}Класс Timer}{20}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Подробное описание}{21}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Конструктор(ы)}{21}{subsection.8.6.2}%
+\contentsline {subsubsection}{\numberline {8.6.2.1}Timer()}{21}{subsubsection.8.6.2.1}%
+\contentsline {subsubsection}{\numberline {8.6.2.2}$\sim $Timer()}{21}{subsubsection.8.6.2.2}%
+\contentsline {subsection}{\numberline {8.6.3}Методы}{21}{subsection.8.6.3}%
+\contentsline {subsubsection}{\numberline {8.6.3.1}elapsed()}{21}{subsubsection.8.6.3.1}%
+\contentsline {chapter}{\numberline {9}Файлы}{23}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Файл build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}4.3.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}apple-\/sdk.c}{23}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Файл build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}4.3.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.c}{23}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Макросы}{24}{subsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.1.1}\_\_has\_include}{24}{subsubsection.9.2.1.1}%
+\contentsline {subsubsection}{\numberline {9.2.1.2}ARCHITECTURE\_ID}{24}{subsubsection.9.2.1.2}%
+\contentsline {subsubsection}{\numberline {9.2.1.3}C\_STD\_11}{24}{subsubsection.9.2.1.3}%
+\contentsline {subsubsection}{\numberline {9.2.1.4}C\_STD\_17}{24}{subsubsection.9.2.1.4}%
+\contentsline {subsubsection}{\numberline {9.2.1.5}C\_STD\_23}{24}{subsubsection.9.2.1.5}%
+\contentsline {subsubsection}{\numberline {9.2.1.6}C\_STD\_99}{24}{subsubsection.9.2.1.6}%
+\contentsline {subsubsection}{\numberline {9.2.1.7}C\_VERSION}{24}{subsubsection.9.2.1.7}%
+\contentsline {subsubsection}{\numberline {9.2.1.8}COMPILER\_ID}{24}{subsubsection.9.2.1.8}%
+\contentsline {subsubsection}{\numberline {9.2.1.9}DEC}{24}{subsubsection.9.2.1.9}%
+\contentsline {subsubsection}{\numberline {9.2.1.10}HEX}{25}{subsubsection.9.2.1.10}%
+\contentsline {subsubsection}{\numberline {9.2.1.11}PLATFORM\_ID}{25}{subsubsection.9.2.1.11}%
+\contentsline {subsubsection}{\numberline {9.2.1.12}STRINGIFY}{25}{subsubsection.9.2.1.12}%
+\contentsline {subsubsection}{\numberline {9.2.1.13}STRINGIFY\_HELPER}{25}{subsubsection.9.2.1.13}%
+\contentsline {subsection}{\numberline {9.2.2}Функции}{25}{subsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.2.1}main()}{25}{subsubsection.9.2.2.1}%
+\contentsline {subsection}{\numberline {9.2.3}Переменные}{25}{subsection.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.3.1}info\_arch}{25}{subsubsection.9.2.3.1}%
+\contentsline {subsubsection}{\numberline {9.2.3.2}info\_compiler}{26}{subsubsection.9.2.3.2}%
+\contentsline {subsubsection}{\numberline {9.2.3.3}info\_language\_extensions\_default}{26}{subsubsection.9.2.3.3}%
+\contentsline {subsubsection}{\numberline {9.2.3.4}info\_language\_standard\_default}{26}{subsubsection.9.2.3.4}%
+\contentsline {subsubsection}{\numberline {9.2.3.5}info\_platform}{26}{subsubsection.9.2.3.5}%
+\contentsline {section}{\numberline {9.3}Файл build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}4.3.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}apple-\/sdk.cpp}{26}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Файл build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}4.3.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp}{26}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Макросы}{27}{subsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.1.1}\_\_has\_include}{27}{subsubsection.9.4.1.1}%
+\contentsline {subsubsection}{\numberline {9.4.1.2}ARCHITECTURE\_ID}{27}{subsubsection.9.4.1.2}%
+\contentsline {subsubsection}{\numberline {9.4.1.3}COMPILER\_ID}{27}{subsubsection.9.4.1.3}%
+\contentsline {subsubsection}{\numberline {9.4.1.4}CXX\_STD}{27}{subsubsection.9.4.1.4}%
+\contentsline {subsubsection}{\numberline {9.4.1.5}CXX\_STD\_11}{27}{subsubsection.9.4.1.5}%
+\contentsline {subsubsection}{\numberline {9.4.1.6}CXX\_STD\_14}{27}{subsubsection.9.4.1.6}%
+\contentsline {subsubsection}{\numberline {9.4.1.7}CXX\_STD\_17}{27}{subsubsection.9.4.1.7}%
+\contentsline {subsubsection}{\numberline {9.4.1.8}CXX\_STD\_20}{28}{subsubsection.9.4.1.8}%
+\contentsline {subsubsection}{\numberline {9.4.1.9}CXX\_STD\_23}{28}{subsubsection.9.4.1.9}%
+\contentsline {subsubsection}{\numberline {9.4.1.10}CXX\_STD\_98}{28}{subsubsection.9.4.1.10}%
+\contentsline {subsubsection}{\numberline {9.4.1.11}DEC}{28}{subsubsection.9.4.1.11}%
+\contentsline {subsubsection}{\numberline {9.4.1.12}HEX}{28}{subsubsection.9.4.1.12}%
+\contentsline {subsubsection}{\numberline {9.4.1.13}PLATFORM\_ID}{28}{subsubsection.9.4.1.13}%
+\contentsline {subsubsection}{\numberline {9.4.1.14}STRINGIFY}{28}{subsubsection.9.4.1.14}%
+\contentsline {subsubsection}{\numberline {9.4.1.15}STRINGIFY\_HELPER}{29}{subsubsection.9.4.1.15}%
+\contentsline {subsection}{\numberline {9.4.2}Функции}{29}{subsection.9.4.2}%
+\contentsline {subsubsection}{\numberline {9.4.2.1}main()}{29}{subsubsection.9.4.2.1}%
+\contentsline {subsection}{\numberline {9.4.3}Переменные}{29}{subsection.9.4.3}%
+\contentsline {subsubsection}{\numberline {9.4.3.1}info\_arch}{29}{subsubsection.9.4.3.1}%
+\contentsline {subsubsection}{\numberline {9.4.3.2}info\_compiler}{29}{subsubsection.9.4.3.2}%
+\contentsline {subsubsection}{\numberline {9.4.3.3}info\_language\_extensions\_default}{29}{subsubsection.9.4.3.3}%
+\contentsline {subsubsection}{\numberline {9.4.3.4}info\_language\_standard\_default}{29}{subsubsection.9.4.3.4}%
+\contentsline {subsubsection}{\numberline {9.4.3.5}info\_platform}{30}{subsubsection.9.4.3.5}%
+\contentsline {section}{\numberline {9.5}Файл scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}plot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}distribution.py}{30}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Файл scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}plot\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}timing.py}{30}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Benchmark.h}{30}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Подробное описание}{31}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Функции}{31}{subsection.9.7.2}%
+\contentsline {subsubsection}{\numberline {9.7.2.1}benchmark()}{31}{subsubsection.9.7.2.1}%
+\contentsline {section}{\numberline {9.8}Benchmark.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{31}{section.9.8}%
+\contentsline {section}{\numberline {9.9}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}main.cpp}{32}{section.9.9}%
+\contentsline {subsection}{\numberline {9.9.1}Макросы}{32}{subsection.9.9.1}%
+\contentsline {subsubsection}{\numberline {9.9.1.1}\_USE\_MATH\_DEFINES}{32}{subsubsection.9.9.1.1}%
+\contentsline {subsection}{\numberline {9.9.2}Функции}{32}{subsection.9.9.2}%
+\contentsline {subsubsection}{\numberline {9.9.2.1}benchmarkMt19937()}{32}{subsubsection.9.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.9.2.2}generateSample()}{32}{subsubsection.9.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.9.2.3}main()}{33}{subsubsection.9.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.9.2.4}printHeader()}{33}{subsubsection.9.9.2.4}%
+\contentsline {subsubsection}{\numberline {9.9.2.5}testGenerator()}{33}{subsubsection.9.9.2.5}%
+\contentsline {section}{\numberline {9.10}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LCG.cpp}{33}{section.9.10}%
+\contentsline {section}{\numberline {9.11}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LCG.h}{33}{section.9.11}%
+\contentsline {subsection}{\numberline {9.11.1}Подробное описание}{33}{subsection.9.11.1}%
+\contentsline {section}{\numberline {9.12}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LCG.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{34}{section.9.12}%
+\contentsline {section}{\numberline {9.13}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Middle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Square.cpp}{34}{section.9.13}%
+\contentsline {section}{\numberline {9.14}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Middle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Square.h}{34}{section.9.14}%
+\contentsline {subsection}{\numberline {9.14.1}Подробное описание}{34}{subsection.9.14.1}%
+\contentsline {section}{\numberline {9.15}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Middle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Square.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{35}{section.9.15}%
+\contentsline {section}{\numberline {9.16}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Xor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shift.cpp}{35}{section.9.16}%
+\contentsline {section}{\numberline {9.17}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Xor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shift.h}{35}{section.9.17}%
+\contentsline {subsection}{\numberline {9.17.1}Подробное описание}{35}{subsection.9.17.1}%
+\contentsline {section}{\numberline {9.18}Modified\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Xor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shift.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{35}{section.9.18}%
+\contentsline {section}{\numberline {9.19}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Random\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.cpp}{36}{section.9.19}%
+\contentsline {subsection}{\numberline {9.19.1}Функции}{36}{subsection.9.19.1}%
+\contentsline {subsubsection}{\numberline {9.19.1.1}chiSquareTest()}{36}{subsubsection.9.19.1.1}%
+\contentsline {subsubsection}{\numberline {9.19.1.2}minimumDistanceTest()}{36}{subsubsection.9.19.1.2}%
+\contentsline {subsubsection}{\numberline {9.19.1.3}monkeyTest()}{36}{subsubsection.9.19.1.3}%
+\contentsline {subsubsection}{\numberline {9.19.1.4}overlappingSumsTest()}{37}{subsubsection.9.19.1.4}%
+\contentsline {subsubsection}{\numberline {9.19.1.5}runsTest()}{37}{subsubsection.9.19.1.5}%
+\contentsline {section}{\numberline {9.20}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Random\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.h}{37}{section.9.20}%
+\contentsline {subsection}{\numberline {9.20.1}Подробное описание}{37}{subsection.9.20.1}%
+\contentsline {subsection}{\numberline {9.20.2}Функции}{38}{subsection.9.20.2}%
+\contentsline {subsubsection}{\numberline {9.20.2.1}chiSquareTest()}{38}{subsubsection.9.20.2.1}%
+\contentsline {subsubsection}{\numberline {9.20.2.2}minimumDistanceTest()}{38}{subsubsection.9.20.2.2}%
+\contentsline {subsubsection}{\numberline {9.20.2.3}monkeyTest()}{38}{subsubsection.9.20.2.3}%
+\contentsline {subsubsection}{\numberline {9.20.2.4}overlappingSumsTest()}{38}{subsubsection.9.20.2.4}%
+\contentsline {subsubsection}{\numberline {9.20.2.5}runsTest()}{38}{subsubsection.9.20.2.5}%
+\contentsline {subsubsection}{\numberline {9.20.2.6}squeezeTest()}{39}{subsubsection.9.20.2.6}%
+\contentsline {section}{\numberline {9.21}Random\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{40}{section.9.21}%
+\contentsline {section}{\numberline {9.22}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statistics.cpp}{40}{section.9.22}%
+\contentsline {subsection}{\numberline {9.22.1}Функции}{41}{subsection.9.22.1}%
+\contentsline {subsubsection}{\numberline {9.22.1.1}computeStats()}{41}{subsubsection.9.22.1.1}%
+\contentsline {section}{\numberline {9.23}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statistics.h}{41}{section.9.23}%
+\contentsline {subsection}{\numberline {9.23.1}Подробное описание}{41}{subsection.9.23.1}%
+\contentsline {subsection}{\numberline {9.23.2}Функции}{41}{subsection.9.23.2}%
+\contentsline {subsubsection}{\numberline {9.23.2.1}computeStats()}{41}{subsubsection.9.23.2.1}%
+\contentsline {section}{\numberline {9.24}Statistics.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{42}{section.9.24}%
+\contentsline {section}{\numberline {9.25}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timer.cpp}{42}{section.9.25}%
+\contentsline {subsection}{\numberline {9.25.1}Подробное описание}{42}{subsection.9.25.1}%
+\contentsline {section}{\numberline {9.26}Файл src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timer.h}{42}{section.9.26}%
+\contentsline {section}{\numberline {9.27}Timer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{42}{section.9.27}%
+\contentsline {chapter}{{\cyrillictext \CYRP \cyrr \cyre \cyrd \cyrm \cyre \cyrt \cyrn \cyrery \cyrishrt \ \cyru \cyrk \cyra \cyrz \cyra \cyrt \cyre \cyrl \cyrsftsn }}{43}{section*.39}%

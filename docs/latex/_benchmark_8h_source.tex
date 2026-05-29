@@ -1,0 +1,24 @@
+\doxysection{Benchmark.\+h}
+\hypertarget{_benchmark_8h_source}{}\label{_benchmark_8h_source}\index{src/Benchmark.h@{src/Benchmark.h}}
+\doxymbox{\hyperlink{_benchmark_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ BENCHMARK\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ BENCHMARK\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{_timer_8h}{Timer.h}}"{}}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{template}<\textcolor{keyword}{typename}\ RNG>}
+\DoxyCodeLine{00019\ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{_benchmark_8h_aed632c2335dae2ffcbbf6bf8b10887a0}{benchmark}}(RNG\&\ rng,\ \textcolor{keywordtype}{size\_t}\ n)\ \{}
+\DoxyCodeLine{00020\ \ \ \ \ \doxymbox{\hyperlink{class_timer}{Timer}}\ timer;}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ ++i)\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \textcolor{keyword}{volatile}\ uint32\_t\ x\ =\ rng.next();}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ (void)x;}
+\DoxyCodeLine{00024\ \ \ \ \ \}}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordflow}{return}\ timer.\doxymbox{\hyperlink{class_timer_a6a89a613c2af9b0d1e5f7e4ba9e46c54}{elapsed}}();}
+\DoxyCodeLine{00026\ \}}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

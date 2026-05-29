@@ -1,0 +1,78 @@
+\doxysection{Класс Timer}
+\hypertarget{class_timer}{}\label{class_timer}\index{Timer@{Timer}}
+
+
+Класс для измерения времени выполнения участка кода.  
+
+
+
+
+{\ttfamily \+\#include $<$Timer.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_timer_a5f16e8da27d2a5a5242dead46de05d97}{Timer}} ()
+\begin{DoxyCompactList}\small\item\em Конструктор – запускает таймер. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_timer_ac039a492a9620af0f3b0910cbe0800a9}{\texorpdfstring{$\sim$}{\string~}\+Timer}} ()=default
+\begin{DoxyCompactList}\small\item\em Деструктор по умолчанию (не делает ничего, так как ресурсов нет). \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_timer_a6a89a613c2af9b0d1e5f7e4ba9e46c54}{elapsed}} () const
+\begin{DoxyCompactList}\small\item\em Возвращает время, прошедшее с момента создания таймера. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для измерения времени выполнения участка кода. 
+
+Использует std::\+chrono::\+high\+\_\+resolution\+\_\+clock для высокоточных замеров. Время измеряется в миллисекундах (double). 
+
+\label{doc-constructors}
+\Hypertarget{class_timer_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_timer_a5f16e8da27d2a5a5242dead46de05d97}\index{Timer@{Timer}!Timer@{Timer}}
+\index{Timer@{Timer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{Timer()}{Timer()}}
+{\footnotesize\ttfamily \label{class_timer_a5f16e8da27d2a5a5242dead46de05d97} 
+Timer::\+\+Timer (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор – запускает таймер. 
+
+Фиксирует текущее время в момент создания объекта.
+
+Фиксирует текущее время с помощью high\+\_\+resolution\+\_\+clock. \Hypertarget{class_timer_ac039a492a9620af0f3b0910cbe0800a9}\index{Timer@{Timer}!````~Timer@{\texorpdfstring{$\sim$}{\string~}Timer}}
+\index{````~Timer@{\texorpdfstring{$\sim$}{\string~}Timer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Timer()}{\string~Timer()}}
+{\footnotesize\ttfamily \label{class_timer_ac039a492a9620af0f3b0910cbe0800a9} 
+Timer::\+\texorpdfstring{$\sim$}{\string~}\+Timer (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Деструктор по умолчанию (не делает ничего, так как ресурсов нет). 
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_timer_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_timer_a6a89a613c2af9b0d1e5f7e4ba9e46c54}\index{Timer@{Timer}!elapsed@{elapsed}}
+\index{elapsed@{elapsed}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{elapsed()}{elapsed()}}
+{\footnotesize\ttfamily \label{class_timer_a6a89a613c2af9b0d1e5f7e4ba9e46c54} 
+double Timer::\+elapsed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Возвращает время, прошедшее с момента создания таймера. 
+
+\begin{DoxyReturn}{Возвращает}
+Прошедшее время в миллисекундах (тип double).
+
+Время в миллисекундах (double). 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах:\+\begin{DoxyCompactItemize}
+\item 
+src/\+\doxymbox{\hyperlink{_timer_8h}{Timer.\+h}}\item 
+src/\+\doxymbox{\hyperlink{_timer_8cpp}{Timer.\+cpp}}\end{DoxyCompactItemize}

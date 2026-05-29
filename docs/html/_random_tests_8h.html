@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>pm_lab3: Файл src/RandomTests.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">pm_lab3<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_random_tests_8h.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Файл RandomTests.h</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Набор статистических тестов для случайных последовательностей.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;RandomTests.tpp&quot;</code><br />
+</div>
+<p><a href="_random_tests_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:TestResult" id="r_TestResult"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_test_result.html">TestResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Результат выполнения одного теста.  <a href="struct_test_result.html#details">Подробнее...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a2e9a505eab8db46f8f31e3879a44bc5e" id="r_a2e9a505eab8db46f8f31e3879a44bc5e"><td class="memItemLeft"><a class="el" href="struct_test_result.html">TestResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2e9a505eab8db46f8f31e3879a44bc5e">chiSquareTest</a> (const std::vector&lt; double &gt; &amp;data)</td></tr>
+<tr class="memdesc:a2e9a505eab8db46f8f31e3879a44bc5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тест хи-квадрат на равномерность распределения.  <br /></td></tr>
+<tr class="memitem:a9bd4b5b724907f6690787c64c09be292" id="r_a9bd4b5b724907f6690787c64c09be292"><td class="memItemLeft"><a class="el" href="struct_test_result.html">TestResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9bd4b5b724907f6690787c64c09be292">runsTest</a> (const std::vector&lt; double &gt; &amp;data)</td></tr>
+<tr class="memdesc:a9bd4b5b724907f6690787c64c09be292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тест серий (runs test) для проверки независимости битов.  <br /></td></tr>
+<tr class="memitem:a4ee3c55c759404570c3cb83c98672ab5" id="r_a4ee3c55c759404570c3cb83c98672ab5"><td class="memItemLeft"><a class="el" href="struct_test_result.html">TestResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4ee3c55c759404570c3cb83c98672ab5">overlappingSumsTest</a> (const std::vector&lt; double &gt; &amp;data)</td></tr>
+<tr class="memdesc:a4ee3c55c759404570c3cb83c98672ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тест перекрывающихся сумм (overlapping sums).  <br /></td></tr>
+<tr class="memitem:a6a84e9dd8924662a18c08242d81a361c" id="r_a6a84e9dd8924662a18c08242d81a361c"><td class="memItemLeft"><a class="el" href="struct_test_result.html">TestResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6a84e9dd8924662a18c08242d81a361c">minimumDistanceTest</a> (const std::vector&lt; double &gt; &amp;data)</td></tr>
+<tr class="memdesc:a6a84e9dd8924662a18c08242d81a361c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тест минимального расстояния между точками на единичном квадрате.  <br /></td></tr>
+<tr class="memitem:ae873fdf1433cacecc5a96269e64147c1" id="r_ae873fdf1433cacecc5a96269e64147c1"><td class="memItemLeft"><a class="el" href="struct_test_result.html">TestResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae873fdf1433cacecc5a96269e64147c1">monkeyTest</a> (const std::vector&lt; double &gt; &amp;data)</td></tr>
+<tr class="memdesc:ae873fdf1433cacecc5a96269e64147c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тест "обезьяны" – проверка покрытия 5-битовых слов.  <br /></td></tr>
+<tr class="memitem:a18d99282fcb4d0fe1ed9343a1d6c0f93" id="r_a18d99282fcb4d0fe1ed9343a1d6c0f93"><td class="memTemplParams" colspan="2">template&lt;typename RNG&gt; </td></tr>
+<tr class="memitem:a18d99282fcb4d0fe1ed9343a1d6c0f93 template"><td class="memItemLeft"><a class="el" href="struct_test_result.html">TestResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a18d99282fcb4d0fe1ed9343a1d6c0f93">squeezeTest</a> (RNG &amp;rng, int repetitions)</td></tr>
+<tr class="memdesc:a18d99282fcb4d0fe1ed9343a1d6c0f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тест "сжатия" (squeeze) – моделирует многократное умножение.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Набор статистических тестов для случайных последовательностей. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Функции</h2>
+<a id="a2e9a505eab8db46f8f31e3879a44bc5e" name="a2e9a505eab8db46f8f31e3879a44bc5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9a505eab8db46f8f31e3879a44bc5e">&#9670;&#160;</a></span>chiSquareTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_test_result.html">TestResult</a> chiSquareTest </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тест хи-квадрат на равномерность распределения. </p>
+
+</div>
+</div>
+<a id="a6a84e9dd8924662a18c08242d81a361c" name="a6a84e9dd8924662a18c08242d81a361c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a84e9dd8924662a18c08242d81a361c">&#9670;&#160;</a></span>minimumDistanceTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_test_result.html">TestResult</a> minimumDistanceTest </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тест минимального расстояния между точками на единичном квадрате. </p>
+
+</div>
+</div>
+<a id="ae873fdf1433cacecc5a96269e64147c1" name="ae873fdf1433cacecc5a96269e64147c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae873fdf1433cacecc5a96269e64147c1">&#9670;&#160;</a></span>monkeyTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_test_result.html">TestResult</a> monkeyTest </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тест "обезьяны" – проверка покрытия 5-битовых слов. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Входная последовательность чисел double. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат: passed, если пропущено менее 5 слов из 32. </dd></dl>
+
+</div>
+</div>
+<a id="a4ee3c55c759404570c3cb83c98672ab5" name="a4ee3c55c759404570c3cb83c98672ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee3c55c759404570c3cb83c98672ab5">&#9670;&#160;</a></span>overlappingSumsTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_test_result.html">TestResult</a> overlappingSumsTest </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тест перекрывающихся сумм (overlapping sums). </p>
+
+</div>
+</div>
+<a id="a9bd4b5b724907f6690787c64c09be292" name="a9bd4b5b724907f6690787c64c09be292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd4b5b724907f6690787c64c09be292">&#9670;&#160;</a></span>runsTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_test_result.html">TestResult</a> runsTest </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тест серий (runs test) для проверки независимости битов. </p>
+
+</div>
+</div>
+<a id="a18d99282fcb4d0fe1ed9343a1d6c0f93" name="a18d99282fcb4d0fe1ed9343a1d6c0f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18d99282fcb4d0fe1ed9343a1d6c0f93">&#9670;&#160;</a></span>squeezeTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename RNG&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_test_result.html">TestResult</a> squeezeTest </td>
+          <td>(</td>
+          <td class="paramtype">RNG &amp;</td>          <td class="paramname"><span class="paramname"><em>rng</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>repetitions</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тест "сжатия" (squeeze) – моделирует многократное умножение. </p>
+<dl class="tparams"><dt>Параметры шаблона</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">RNG</td><td>Тип генератора. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rng</td><td>Генератор случайных чисел. </td></tr>
+    <tr><td class="paramname">repetitions</td><td>Количество повторений эксперимента. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат: passed, если среднее число шагов близко к 21. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a href="_random_tests_8h.html">RandomTests.h</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+\doxysection{Класс Modified\+LCG}
+\hypertarget{class_modified_l_c_g}{}\label{class_modified_l_c_g}\index{ModifiedLCG@{ModifiedLCG}}
+
+
+Генератор псевдослучайных чисел на основе LCG.  
+
+
+
+
+{\ttfamily \+\#include $<$Modified\+LCG.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_modified_l_c_g_a4b1c9244bb8d58c4739021599ba714c2}{Modified\+LCG}} (uint64\+\_\+t seed)
+\begin{DoxyCompactList}\small\item\em Конструктор. \end{DoxyCompactList}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{class_modified_l_c_g_acc48d2944baeea2b1736bea820e84a81}{next}} ()
+\begin{DoxyCompactList}\small\item\em Генерирует 32-\/битное псевдослучайное число. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_modified_l_c_g_abda1c51bbd35ca364a01776d961e43d5}{next\+Double}} ()
+\begin{DoxyCompactList}\small\item\em Генерирует число с плавающей точкой в \+[0, 1). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Генератор псевдослучайных чисел на основе LCG. 
+
+Использует 64-\/битное состояние, линейное преобразование и нелинейное перемешивание старших 32 бит. 
+
+\label{doc-constructors}
+\Hypertarget{class_modified_l_c_g_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_modified_l_c_g_a4b1c9244bb8d58c4739021599ba714c2}\index{ModifiedLCG@{ModifiedLCG}!ModifiedLCG@{ModifiedLCG}}
+\index{ModifiedLCG@{ModifiedLCG}!ModifiedLCG@{ModifiedLCG}}
+\doxysubsubsection{\texorpdfstring{ModifiedLCG()}{ModifiedLCG()}}
+{\footnotesize\ttfamily \label{class_modified_l_c_g_a4b1c9244bb8d58c4739021599ba714c2} 
+Modified\+LCG::\+\+Modified\+LCG (\begin{DoxyParamCaption}\item[{uint64\+\_\+t}]{seed}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Конструктор. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em seed} & Начальное значение состояния. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_modified_l_c_g_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_modified_l_c_g_acc48d2944baeea2b1736bea820e84a81}\index{ModifiedLCG@{ModifiedLCG}!next@{next}}
+\index{next@{next}!ModifiedLCG@{ModifiedLCG}}
+\doxysubsubsection{\texorpdfstring{next()}{next()}}
+{\footnotesize\ttfamily \label{class_modified_l_c_g_acc48d2944baeea2b1736bea820e84a81} 
+uint32\+\_\+t Modified\+LCG::\+next (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Генерирует 32-\/битное псевдослучайное число. 
+
+\begin{DoxyReturn}{Возвращает}
+uint32\+\_\+t Случайное число в диапазоне \+[0, 2\texorpdfstring{$^\wedge$}{\string^}32-\/1]\+. 
+\end{DoxyReturn}
+\Hypertarget{class_modified_l_c_g_abda1c51bbd35ca364a01776d961e43d5}\index{ModifiedLCG@{ModifiedLCG}!nextDouble@{nextDouble}}
+\index{nextDouble@{nextDouble}!ModifiedLCG@{ModifiedLCG}}
+\doxysubsubsection{\texorpdfstring{nextDouble()}{nextDouble()}}
+{\footnotesize\ttfamily \label{class_modified_l_c_g_abda1c51bbd35ca364a01776d961e43d5} 
+double Modified\+LCG::\+next\+Double (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Генерирует число с плавающей точкой в \+[0, 1). 
+
+\begin{DoxyReturn}{Возвращает}
+double Случайное число. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах:\+\begin{DoxyCompactItemize}
+\item 
+src/\+\doxymbox{\hyperlink{_modified_l_c_g_8h}{Modified\+LCG.\+h}}\item 
+src/\+\doxymbox{\hyperlink{_modified_l_c_g_8cpp}{Modified\+LCG.\+cpp}}\end{DoxyCompactItemize}

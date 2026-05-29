@@ -1,0 +1,76 @@
+\doxysection{Класс Modified\+Middle\+Square}
+\hypertarget{class_modified_middle_square}{}\label{class_modified_middle_square}\index{ModifiedMiddleSquare@{ModifiedMiddleSquare}}
+
+
+Генератор, улучшающий классический метод середины квадрата.  
+
+
+
+
+{\ttfamily \+\#include $<$Modified\+Middle\+Square.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_modified_middle_square_a8ad077005b400d38f3939b4d643dc6a1}{Modified\+Middle\+Square}} (uint32\+\_\+t seed)
+\begin{DoxyCompactList}\small\item\em Конструктор. \end{DoxyCompactList}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{class_modified_middle_square_a2ddc8c0d7ea7fde8f4729d4e1745b1b2}{next}} ()
+\begin{DoxyCompactList}\small\item\em Генерирует 32-\/битное число. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_modified_middle_square_a8426c15292e1a62dd7e808fa2227a736}{next\+Double}} ()
+\begin{DoxyCompactList}\small\item\em Генерирует double в \+[0, 1). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Генератор, улучшающий классический метод середины квадрата. 
+
+На каждом шаге:\+ state = state\texorpdfstring{$^\wedge$}{\string^}2, берутся средние 32 бита, циклический сдвиг, XOR с предыдущим состоянием. Предотвращается вырождение в ноль. 
+
+\label{doc-constructors}
+\Hypertarget{class_modified_middle_square_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_modified_middle_square_a8ad077005b400d38f3939b4d643dc6a1}\index{ModifiedMiddleSquare@{ModifiedMiddleSquare}!ModifiedMiddleSquare@{ModifiedMiddleSquare}}
+\index{ModifiedMiddleSquare@{ModifiedMiddleSquare}!ModifiedMiddleSquare@{ModifiedMiddleSquare}}
+\doxysubsubsection{\texorpdfstring{ModifiedMiddleSquare()}{ModifiedMiddleSquare()}}
+{\footnotesize\ttfamily \label{class_modified_middle_square_a8ad077005b400d38f3939b4d643dc6a1} 
+Modified\+Middle\+Square::\+\+Modified\+Middle\+Square (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{seed}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Конструктор. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em seed} & Начальное состояние (если 0, заменяется на константу). \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_modified_middle_square_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_modified_middle_square_a2ddc8c0d7ea7fde8f4729d4e1745b1b2}\index{ModifiedMiddleSquare@{ModifiedMiddleSquare}!next@{next}}
+\index{next@{next}!ModifiedMiddleSquare@{ModifiedMiddleSquare}}
+\doxysubsubsection{\texorpdfstring{next()}{next()}}
+{\footnotesize\ttfamily \label{class_modified_middle_square_a2ddc8c0d7ea7fde8f4729d4e1745b1b2} 
+uint32\+\_\+t Modified\+Middle\+Square::\+next (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Генерирует 32-\/битное число. 
+
+\Hypertarget{class_modified_middle_square_a8426c15292e1a62dd7e808fa2227a736}\index{ModifiedMiddleSquare@{ModifiedMiddleSquare}!nextDouble@{nextDouble}}
+\index{nextDouble@{nextDouble}!ModifiedMiddleSquare@{ModifiedMiddleSquare}}
+\doxysubsubsection{\texorpdfstring{nextDouble()}{nextDouble()}}
+{\footnotesize\ttfamily \label{class_modified_middle_square_a8426c15292e1a62dd7e808fa2227a736} 
+double Modified\+Middle\+Square::\+next\+Double (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Генерирует double в \+[0, 1). 
+
+
+
+Объявления и описания членов классов находятся в файлах:\+\begin{DoxyCompactItemize}
+\item 
+src/\+\doxymbox{\hyperlink{_modified_middle_square_8h}{Modified\+Middle\+Square.\+h}}\item 
+src/\+\doxymbox{\hyperlink{_modified_middle_square_8cpp}{Modified\+Middle\+Square.\+cpp}}\end{DoxyCompactItemize}

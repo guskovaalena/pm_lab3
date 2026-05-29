@@ -1,0 +1,79 @@
+\doxysection{Файл src/\+main.cpp}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+{\ttfamily \+\#include $<$iostream$>$}\newline
+{\ttfamily \+\#include $<$fstream$>$}\newline
+{\ttfamily \+\#include $<$iomanip$>$}\newline
+{\ttfamily \+\#include $<$vector$>$}\newline
+{\ttfamily \+\#include $<$random$>$}\newline
+{\ttfamily \+\#include "{}Modified\+LCG.\+h"{}}\newline
+{\ttfamily \+\#include "{}Modified\+Xor\+Shift.\+h"{}}\newline
+{\ttfamily \+\#include "{}Modified\+Middle\+Square.\+h"{}}\newline
+{\ttfamily \+\#include "{}Statistics.\+h"{}}\newline
+{\ttfamily \+\#include "{}Random\+Tests.\+h"{}}\newline
+{\ttfamily \+\#include "{}Benchmark.\+h"{}}\newline
+\doxysubsubsection*{Макросы}
+\begin{DoxyCompactItemize}
+\item 
+\+\#define \doxymbox{\hyperlink{main_8cpp_a525335710b53cb064ca56b936120431e}{\+\_\+\+USE\+\_\+\+MATH\+\_\+\+DEFINES}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename RNG$>$ }\\std::\+vector$<$ double $>$ \doxymbox{\hyperlink{main_8cpp_a7d93e8bd1e42f35d70b81a84dbdda0d8}{generate\+Sample}} (RNG \&rng, size\+\_\+t n)
+\item 
+void \doxymbox{\hyperlink{main_8cpp_a463abe7d682b6ef6fc100e18d872d4e7}{print\+Header}} ()
+\item 
+{\footnotesize template$<$typename RNG$>$ }\\void \doxymbox{\hyperlink{main_8cpp_affe7d83ae5ab454151b61cc719abe3a3}{test\+Generator}} (const std::\+string \&name, RNG \&rng, std::\+ofstream \&timing\+Csv)
+\item 
+double \doxymbox{\hyperlink{main_8cpp_a04b3dcdd23a4a58121b730170aaa8489}{benchmark\+Mt19937}} (size\+\_\+t n)
+\item 
+int \doxymbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\label{doc-define-members}
+\Hypertarget{main_8cpp_doc-define-members}
+\doxysubsection{Макросы}
+\Hypertarget{main_8cpp_a525335710b53cb064ca56b936120431e}\index{main.cpp@{main.cpp}!\_USE\_MATH\_DEFINES@{\_USE\_MATH\_DEFINES}}
+\index{\_USE\_MATH\_DEFINES@{\_USE\_MATH\_DEFINES}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{\_USE\_MATH\_DEFINES}{\_USE\_MATH\_DEFINES}}
+{\footnotesize\ttfamily \label{main_8cpp_a525335710b53cb064ca56b936120431e} 
+\+\#define \+\_\+\+USE\+\_\+\+MATH\+\_\+\+DEFINES}
+
+
+
+\label{doc-func-members}
+\Hypertarget{main_8cpp_doc-func-members}
+\doxysubsection{Функции}
+\Hypertarget{main_8cpp_a04b3dcdd23a4a58121b730170aaa8489}\index{main.cpp@{main.cpp}!benchmarkMt19937@{benchmarkMt19937}}
+\index{benchmarkMt19937@{benchmarkMt19937}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{benchmarkMt19937()}{benchmarkMt19937()}}
+{\footnotesize\ttfamily \label{main_8cpp_a04b3dcdd23a4a58121b730170aaa8489} 
+double benchmark\+Mt19937 (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{n}{}\end{DoxyParamCaption})}
+
+\Hypertarget{main_8cpp_a7d93e8bd1e42f35d70b81a84dbdda0d8}\index{main.cpp@{main.cpp}!generateSample@{generateSample}}
+\index{generateSample@{generateSample}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{generateSample()}{generateSample()}}
+{\footnotesize\ttfamily \label{main_8cpp_a7d93e8bd1e42f35d70b81a84dbdda0d8} 
+template$<$typename RNG$>$ \\
+std::\+vector$<$ double $>$ generate\+Sample (\begin{DoxyParamCaption}\item[{RNG \&}]{rng}{, }\item[{size\+\_\+t}]{n}{}\end{DoxyParamCaption})}
+
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{main_8cpp_a463abe7d682b6ef6fc100e18d872d4e7}\index{main.cpp@{main.cpp}!printHeader@{printHeader}}
+\index{printHeader@{printHeader}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{printHeader()}{printHeader()}}
+{\footnotesize\ttfamily \label{main_8cpp_a463abe7d682b6ef6fc100e18d872d4e7} 
+void print\+Header (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{main_8cpp_affe7d83ae5ab454151b61cc719abe3a3}\index{main.cpp@{main.cpp}!testGenerator@{testGenerator}}
+\index{testGenerator@{testGenerator}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{testGenerator()}{testGenerator()}}
+{\footnotesize\ttfamily \label{main_8cpp_affe7d83ae5ab454151b61cc719abe3a3} 
+template$<$typename RNG$>$ \\
+void test\+Generator (\begin{DoxyParamCaption}\item[{const std::\+string \&}]{name}{, }\item[{RNG \&}]{rng}{, }\item[{std::\+ofstream \&}]{timing\+Csv}{}\end{DoxyParamCaption})}
+

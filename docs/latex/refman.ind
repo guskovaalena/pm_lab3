@@ -1,0 +1,351 @@
+\begin{theindex}
+
+  \item {\_USE\_MATH\_DEFINES}
+    \subitem {main.cpp}, \hyperpage{32}
+  \item {\_\_has\_include}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+  \item {\texorpdfstring{$\sim$}{\string~}Timer}
+    \subitem {Timer}, \hyperpage{21}
+
+  \indexspace
+
+  \item {ARCHITECTURE\_ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+
+  \indexspace
+
+  \item {benchmark}
+    \subitem {Benchmark.h}, \hyperpage{31}
+  \item {Benchmark.h}
+    \subitem {benchmark}, \hyperpage{31}
+  \item {benchmarkMt19937}
+    \subitem {main.cpp}, \hyperpage{32}
+  \item {bins}
+    \subitem {plot\_distribution}, \hyperpage{13}
+  \item {build/CMakeFiles/4.3.1/CompilerIdC/apple-\/sdk.c}, 
+		\hyperpage{23}
+  \item {build/CMakeFiles/4.3.1/CompilerIdC/CMakeCCompilerId.c}, 
+		\hyperpage{23}
+  \item {build/CMakeFiles/4.3.1/CompilerIdCXX/apple-\/sdk.cpp}, 
+		\hyperpage{26}
+  \item {build/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {C\_STD\_11}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+  \item {C\_STD\_17}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+  \item {C\_STD\_23}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+  \item {C\_STD\_99}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+  \item {C\_VERSION}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+  \item {chiSquareTest}
+    \subitem {RandomTests.cpp}, \hyperpage{36}
+    \subitem {RandomTests.h}, \hyperpage{38}
+  \item {CMakeCCompilerId.c}
+    \subitem {\_\_has\_include}, \hyperpage{24}
+    \subitem {ARCHITECTURE\_ID}, \hyperpage{24}
+    \subitem {C\_STD\_11}, \hyperpage{24}
+    \subitem {C\_STD\_17}, \hyperpage{24}
+    \subitem {C\_STD\_23}, \hyperpage{24}
+    \subitem {C\_STD\_99}, \hyperpage{24}
+    \subitem {C\_VERSION}, \hyperpage{24}
+    \subitem {COMPILER\_ID}, \hyperpage{24}
+    \subitem {DEC}, \hyperpage{24}
+    \subitem {HEX}, \hyperpage{24}
+    \subitem {info\_arch}, \hyperpage{25}
+    \subitem {info\_compiler}, \hyperpage{25}
+    \subitem {info\_language\_extensions\_default}, \hyperpage{26}
+    \subitem {info\_language\_standard\_default}, \hyperpage{26}
+    \subitem {info\_platform}, \hyperpage{26}
+    \subitem {main}, \hyperpage{25}
+    \subitem {PLATFORM\_ID}, \hyperpage{25}
+    \subitem {STRINGIFY}, \hyperpage{25}
+    \subitem {STRINGIFY\_HELPER}, \hyperpage{25}
+  \item {CMakeCXXCompilerId.cpp}
+    \subitem {\_\_has\_include}, \hyperpage{27}
+    \subitem {ARCHITECTURE\_ID}, \hyperpage{27}
+    \subitem {COMPILER\_ID}, \hyperpage{27}
+    \subitem {CXX\_STD}, \hyperpage{27}
+    \subitem {CXX\_STD\_11}, \hyperpage{27}
+    \subitem {CXX\_STD\_14}, \hyperpage{27}
+    \subitem {CXX\_STD\_17}, \hyperpage{27}
+    \subitem {CXX\_STD\_20}, \hyperpage{27}
+    \subitem {CXX\_STD\_23}, \hyperpage{28}
+    \subitem {CXX\_STD\_98}, \hyperpage{28}
+    \subitem {DEC}, \hyperpage{28}
+    \subitem {HEX}, \hyperpage{28}
+    \subitem {info\_arch}, \hyperpage{29}
+    \subitem {info\_compiler}, \hyperpage{29}
+    \subitem {info\_language\_extensions\_default}, \hyperpage{29}
+    \subitem {info\_language\_standard\_default}, \hyperpage{29}
+    \subitem {info\_platform}, \hyperpage{29}
+    \subitem {main}, \hyperpage{29}
+    \subitem {PLATFORM\_ID}, \hyperpage{28}
+    \subitem {STRINGIFY}, \hyperpage{28}
+    \subitem {STRINGIFY\_HELPER}, \hyperpage{28}
+  \item {COMPILER\_ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+  \item {computeStats}
+    \subitem {Statistics.cpp}, \hyperpage{41}
+    \subitem {Statistics.h}, \hyperpage{41}
+  \item {cv}
+    \subitem {SampleStats}, \hyperpage{19}
+  \item {CXX\_STD}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+  \item {CXX\_STD\_11}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+  \item {CXX\_STD\_14}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+  \item {CXX\_STD\_17}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+  \item {CXX\_STD\_20}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{27}
+  \item {CXX\_STD\_23}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{28}
+  \item {CXX\_STD\_98}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{28}
+
+  \indexspace
+
+  \item {data}
+    \subitem {plot\_distribution}, \hyperpage{13}
+  \item {DEC}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{28}
+  \item {df}
+    \subitem {plot\_timing}, \hyperpage{14}
+  \item {dpi}
+    \subitem {plot\_distribution}, \hyperpage{13}
+    \subitem {plot\_timing}, \hyperpage{14}
+
+  \indexspace
+
+  \item {elapsed}
+    \subitem {Timer}, \hyperpage{21}
+
+  \indexspace
+
+  \item {figsize}
+    \subitem {plot\_distribution}, \hyperpage{13}
+    \subitem {plot\_timing}, \hyperpage{14}
+
+  \indexspace
+
+  \item {generateSample}
+    \subitem {main.cpp}, \hyperpage{32}
+
+  \indexspace
+
+  \item {HEX}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{24}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{28}
+
+  \indexspace
+
+  \item {info\_arch}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{25}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{29}
+  \item {info\_compiler}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{25}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{29}
+  \item {info\_language\_extensions\_default}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{26}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{29}
+  \item {info\_language\_standard\_default}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{26}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{29}
+  \item {info\_platform}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{26}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{29}
+
+  \indexspace
+
+  \item {label}
+    \subitem {plot\_timing}, \hyperpage{14}
+
+  \indexspace
+
+  \item {main}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{25}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{29}
+    \subitem {main.cpp}, \hyperpage{32}
+  \item {main.cpp}
+    \subitem {\_USE\_MATH\_DEFINES}, \hyperpage{32}
+    \subitem {benchmarkMt19937}, \hyperpage{32}
+    \subitem {generateSample}, \hyperpage{32}
+    \subitem {main}, \hyperpage{32}
+    \subitem {printHeader}, \hyperpage{33}
+    \subitem {testGenerator}, \hyperpage{33}
+  \item {marker}
+    \subitem {plot\_timing}, \hyperpage{14}
+  \item {mean}
+    \subitem {SampleStats}, \hyperpage{19}
+  \item {minimumDistanceTest}
+    \subitem {RandomTests.cpp}, \hyperpage{36}
+    \subitem {RandomTests.h}, \hyperpage{38}
+  \item {ModifiedLCG}, \hyperpage{15}
+    \subitem {ModifiedLCG}, \hyperpage{15}
+    \subitem {next}, \hyperpage{16}
+    \subitem {nextDouble}, \hyperpage{16}
+  \item {ModifiedMiddleSquare}, \hyperpage{16}
+    \subitem {ModifiedMiddleSquare}, \hyperpage{17}
+    \subitem {next}, \hyperpage{17}
+    \subitem {nextDouble}, \hyperpage{17}
+  \item {ModifiedXorShift}, \hyperpage{17}
+    \subitem {ModifiedXorShift}, \hyperpage{18}
+    \subitem {next}, \hyperpage{18}
+    \subitem {nextDouble}, \hyperpage{18}
+  \item {monkeyTest}
+    \subitem {RandomTests.cpp}, \hyperpage{36}
+    \subitem {RandomTests.h}, \hyperpage{38}
+
+  \indexspace
+
+  \item {n}
+    \subitem {plot\_distribution}, \hyperpage{13}
+  \item {next}
+    \subitem {ModifiedLCG}, \hyperpage{16}
+    \subitem {ModifiedMiddleSquare}, \hyperpage{17}
+    \subitem {ModifiedXorShift}, \hyperpage{18}
+  \item {nextDouble}
+    \subitem {ModifiedLCG}, \hyperpage{16}
+    \subitem {ModifiedMiddleSquare}, \hyperpage{17}
+    \subitem {ModifiedXorShift}, \hyperpage{18}
+
+  \indexspace
+
+  \item {overlappingSumsTest}
+    \subitem {RandomTests.cpp}, \hyperpage{36}
+    \subitem {RandomTests.h}, \hyperpage{38}
+
+  \indexspace
+
+  \item {passed}
+    \subitem {TestResult}, \hyperpage{20}
+  \item {PLATFORM\_ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{25}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{28}
+  \item {plot\_distribution}, \hyperpage{13}
+    \subitem {bins}, \hyperpage{13}
+    \subitem {data}, \hyperpage{13}
+    \subitem {dpi}, \hyperpage{13}
+    \subitem {figsize}, \hyperpage{13}
+    \subitem {n}, \hyperpage{13}
+  \item {plot\_timing}, \hyperpage{14}
+    \subitem {df}, \hyperpage{14}
+    \subitem {dpi}, \hyperpage{14}
+    \subitem {figsize}, \hyperpage{14}
+    \subitem {label}, \hyperpage{14}
+    \subitem {marker}, \hyperpage{14}
+    \subitem {subset}, \hyperpage{14}
+  \item {printHeader}
+    \subitem {main.cpp}, \hyperpage{33}
+  \item {pvalue}
+    \subitem {TestResult}, \hyperpage{20}
+
+  \indexspace
+
+  \item {RandomTests.cpp}
+    \subitem {chiSquareTest}, \hyperpage{36}
+    \subitem {minimumDistanceTest}, \hyperpage{36}
+    \subitem {monkeyTest}, \hyperpage{36}
+    \subitem {overlappingSumsTest}, \hyperpage{36}
+    \subitem {runsTest}, \hyperpage{37}
+  \item {RandomTests.h}
+    \subitem {chiSquareTest}, \hyperpage{38}
+    \subitem {minimumDistanceTest}, \hyperpage{38}
+    \subitem {monkeyTest}, \hyperpage{38}
+    \subitem {overlappingSumsTest}, \hyperpage{38}
+    \subitem {runsTest}, \hyperpage{38}
+    \subitem {squeezeTest}, \hyperpage{38}
+  \item {runsTest}
+    \subitem {RandomTests.cpp}, \hyperpage{37}
+    \subitem {RandomTests.h}, \hyperpage{38}
+
+  \indexspace
+
+  \item {SampleStats}, \hyperpage{18}
+    \subitem {cv}, \hyperpage{19}
+    \subitem {mean}, \hyperpage{19}
+    \subitem {stddev}, \hyperpage{19}
+    \subitem {variance}, \hyperpage{19}
+  \item {scripts/plot\_distribution.py}, \hyperpage{30}
+  \item {scripts/plot\_timing.py}, \hyperpage{30}
+  \item {squeezeTest}
+    \subitem {RandomTests.h}, \hyperpage{38}
+  \item {src/Benchmark.h}, \hyperpage{30, 31}
+  \item {src/main.cpp}, \hyperpage{32}
+  \item {src/ModifiedLCG.cpp}, \hyperpage{33}
+  \item {src/ModifiedLCG.h}, \hyperpage{33, 34}
+  \item {src/ModifiedMiddleSquare.cpp}, \hyperpage{34}
+  \item {src/ModifiedMiddleSquare.h}, \hyperpage{34, 35}
+  \item {src/ModifiedXorShift.cpp}, \hyperpage{35}
+  \item {src/ModifiedXorShift.h}, \hyperpage{35}
+  \item {src/RandomTests.cpp}, \hyperpage{36}
+  \item {src/RandomTests.h}, \hyperpage{37}, \hyperpage{40}
+  \item {src/Statistics.cpp}, \hyperpage{40}
+  \item {src/Statistics.h}, \hyperpage{41, 42}
+  \item {src/Timer.cpp}, \hyperpage{42}
+  \item {src/Timer.h}, \hyperpage{42}
+  \item {statistic}
+    \subitem {TestResult}, \hyperpage{20}
+  \item {Statistics.cpp}
+    \subitem {computeStats}, \hyperpage{41}
+  \item {Statistics.h}
+    \subitem {computeStats}, \hyperpage{41}
+  \item {stddev}
+    \subitem {SampleStats}, \hyperpage{19}
+  \item {STRINGIFY}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{25}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{28}
+  \item {STRINGIFY\_HELPER}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{25}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{28}
+  \item {subset}
+    \subitem {plot\_timing}, \hyperpage{14}
+
+  \indexspace
+
+  \item {testGenerator}
+    \subitem {main.cpp}, \hyperpage{33}
+  \item {TestResult}, \hyperpage{20}
+    \subitem {passed}, \hyperpage{20}
+    \subitem {pvalue}, \hyperpage{20}
+    \subitem {statistic}, \hyperpage{20}
+  \item {Timer}, \hyperpage{20}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Timer}, \hyperpage{21}
+    \subitem {elapsed}, \hyperpage{21}
+    \subitem {Timer}, \hyperpage{21}
+
+  \indexspace
+
+  \item {variance}
+    \subitem {SampleStats}, \hyperpage{19}
+
+  \indexspace
+
+  \item {Содержание директории build}, 
+		\hyperpage{11}
+  \item {Содержание директории build/CMakeFiles}, 
+		\hyperpage{11}
+  \item {Содержание директории build/CMakeFiles/4.3.1}, 
+		\hyperpage{11}
+  \item {Содержание директории build/CMakeFiles/4.3.1/CompilerIdC}, 
+		\hyperpage{11}
+  \item {Содержание директории build/CMakeFiles/4.3.1/CompilerIdCXX}, 
+		\hyperpage{11}
+  \item {Содержание директории scripts}, 
+		\hyperpage{12}
+  \item {Содержание директории src}, \hyperpage{12}
+  \item {Сравнение модифицированных генераторов случайных чисел}, 
+		\hyperpage{1}
+
+\end{theindex}

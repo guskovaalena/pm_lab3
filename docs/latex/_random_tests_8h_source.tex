@@ -1,0 +1,35 @@
+\doxysection{Random\+Tests.\+h}
+\hypertarget{_random_tests_8h_source}{}\label{_random_tests_8h_source}\index{src/RandomTests.h@{src/RandomTests.h}}
+\doxymbox{\hyperlink{_random_tests_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ RANDOM\_TESTS\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ RANDOM\_TESTS\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{struct\ }\doxymbox{\hyperlink{struct_test_result}{TestResult}}\ \{}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{struct_test_result_addd8d324172db5d12d5683ae63d0ad12}{statistic}};\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{struct_test_result_ae47aa958f04ce85e2aece326b1a1d5f6}{pvalue}};\ \ \ \ }
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{struct_test_result_a40088e89274db8643f0ba6f1efe63b95}{passed}};\ \ \ \ \ \ }
+\DoxyCodeLine{00019\ \};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00022\ \doxymbox{\hyperlink{struct_test_result}{TestResult}}\ \doxymbox{\hyperlink{_random_tests_8h_a2e9a505eab8db46f8f31e3879a44bc5e}{chiSquareTest}}(\textcolor{keyword}{const}\ std::vector<double>\&\ data);}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00025\ \doxymbox{\hyperlink{struct_test_result}{TestResult}}\ \doxymbox{\hyperlink{_random_tests_8h_a9bd4b5b724907f6690787c64c09be292}{runsTest}}(\textcolor{keyword}{const}\ std::vector<double>\&\ data);}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00028\ \doxymbox{\hyperlink{struct_test_result}{TestResult}}\ \doxymbox{\hyperlink{_random_tests_8h_a4ee3c55c759404570c3cb83c98672ab5}{overlappingSumsTest}}(\textcolor{keyword}{const}\ std::vector<double>\&\ data);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00031\ \doxymbox{\hyperlink{struct_test_result}{TestResult}}\ \doxymbox{\hyperlink{_random_tests_8h_a6a84e9dd8924662a18c08242d81a361c}{minimumDistanceTest}}(\textcolor{keyword}{const}\ std::vector<double>\&\ data);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00038\ \doxymbox{\hyperlink{struct_test_result}{TestResult}}\ \doxymbox{\hyperlink{_random_tests_8h_ae873fdf1433cacecc5a96269e64147c1}{monkeyTest}}(\textcolor{keyword}{const}\ std::vector<double>\&\ data);}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00047\ \textcolor{keyword}{template}<\textcolor{keyword}{typename}\ RNG>}
+\DoxyCodeLine{00048\ \doxymbox{\hyperlink{struct_test_result}{TestResult}}\ \doxymbox{\hyperlink{_random_tests_8h_a18d99282fcb4d0fe1ed9343a1d6c0f93}{squeezeTest}}(RNG\&\ rng,\ \textcolor{keywordtype}{int}\ repetitions);}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#include\ "{}RandomTests.tpp"{}}}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ RANDOM\_TESTS\_H}}
+
+\end{DoxyCode}

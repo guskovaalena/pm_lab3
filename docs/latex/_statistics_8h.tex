@@ -1,0 +1,46 @@
+\doxysection{Файл src/\+\+Statistics.h}
+\hypertarget{_statistics_8h}{}\label{_statistics_8h}\index{src/Statistics.h@{src/Statistics.h}}
+
+
+Вычисление основных статистик выборки.  
+
+
+{\ttfamily \+\#include $<$vector$>$}\newline
+\doxysubsubsection*{Классы}
+\begin{DoxyCompactItemize}
+\item 
+struct \doxymbox{\hyperlink{struct_sample_stats}{Sample\+Stats}}
+\begin{DoxyCompactList}\small\item\em Набор описательных статистик. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{struct_sample_stats}{Sample\+Stats}} \doxymbox{\hyperlink{_statistics_8h_ad686d88c97e66c78763fb606f6212912}{compute\+Stats}} (const std::\+vector$<$ double $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Вычисляет статистики для выборки. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Вычисление основных статистик выборки. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{_statistics_8h_doc-func-members}
+\doxysubsection{Функции}
+\Hypertarget{_statistics_8h_ad686d88c97e66c78763fb606f6212912}\index{Statistics.h@{Statistics.h}!computeStats@{computeStats}}
+\index{computeStats@{computeStats}!Statistics.h@{Statistics.h}}
+\doxysubsubsection{\texorpdfstring{computeStats()}{computeStats()}}
+{\footnotesize\ttfamily \label{_statistics_8h_ad686d88c97e66c78763fb606f6212912} 
+\doxymbox{\hyperlink{struct_sample_stats}{Sample\+Stats}} compute\+Stats (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ double $>$ \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Вычисляет статистики для выборки. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em data} & Входной вектор вещественных чисел. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+\doxylink{struct_sample_stats}{Sample\+Stats} Структура с рассчитанными значениями. 
+\end{DoxyReturn}

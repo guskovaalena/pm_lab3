@@ -1,0 +1,49 @@
+\doxysection{Файл src/\+\+Benchmark.h}
+\hypertarget{_benchmark_8h}{}\label{_benchmark_8h}\index{src/Benchmark.h@{src/Benchmark.h}}
+
+
+Шаблонная функция для измерения времени генерации n чисел.  
+
+
+{\ttfamily \+\#include "{}Timer.\+h"{}}\newline
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename RNG$>$ }\\double \doxymbox{\hyperlink{_benchmark_8h_aed632c2335dae2ffcbbf6bf8b10887a0}{benchmark}} (RNG \&rng, size\+\_\+t n)
+\begin{DoxyCompactList}\small\item\em Замеряет время, затраченное на генерацию n чисел. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Шаблонная функция для измерения времени генерации n чисел. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{_benchmark_8h_doc-func-members}
+\doxysubsection{Функции}
+\Hypertarget{_benchmark_8h_aed632c2335dae2ffcbbf6bf8b10887a0}\index{Benchmark.h@{Benchmark.h}!benchmark@{benchmark}}
+\index{benchmark@{benchmark}!Benchmark.h@{Benchmark.h}}
+\doxysubsubsection{\texorpdfstring{benchmark()}{benchmark()}}
+{\footnotesize\ttfamily \label{_benchmark_8h_aed632c2335dae2ffcbbf6bf8b10887a0} 
+template$<$typename RNG$>$ \\
+double benchmark (\begin{DoxyParamCaption}\item[{RNG \&}]{rng}{, }\item[{size\+\_\+t}]{n}{}\end{DoxyParamCaption})}
+
+
+
+Замеряет время, затраченное на генерацию n чисел. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em RNG} & Тип генератора (должен иметь метод next()). \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Аргументы}
+{\em rng} & Ссылка на генератор. \\
+\hline
+{\em n} & Количество генерируемых чисел. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+double Время в миллисекундах. 
+\end{DoxyReturn}

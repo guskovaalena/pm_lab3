@@ -1,0 +1,28 @@
+\doxysection{Modified\+LCG.\+h}
+\hypertarget{_modified_l_c_g_8h_source}{}\label{_modified_l_c_g_8h_source}\index{src/ModifiedLCG.h@{src/ModifiedLCG.h}}
+\doxymbox{\hyperlink{_modified_l_c_g_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ MODIFIED\_LCG\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ MODIFIED\_LCG\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <cstdint>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_modified_l_c_g_a4b1c9244bb8d58c4739021599ba714c2}{ModifiedLCG}}\ \{}
+\DoxyCodeLine{00019\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00020\ \ \ \ \ uint64\_t\ state;\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{constexpr}\ uint64\_t\ a\ =\ 6364136223846793005ull;\ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{constexpr}\ uint64\_t\ c\ =\ 1442695040888963407ull;\ }
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_modified_l_c_g_a4b1c9244bb8d58c4739021599ba714c2}{ModifiedLCG}}(uint64\_t\ seed);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00035\ \ \ \ \ uint32\_t\ \doxymbox{\hyperlink{class_modified_l_c_g_acc48d2944baeea2b1736bea820e84a81}{next}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{class_modified_l_c_g_abda1c51bbd35ca364a01776d961e43d5}{nextDouble}}();}
+\DoxyCodeLine{00042\ \};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ MODIFIED\_LCG\_H}}
+
+\end{DoxyCode}

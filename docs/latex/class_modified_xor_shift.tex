@@ -1,0 +1,76 @@
+\doxysection{Класс Modified\+Xor\+Shift}
+\hypertarget{class_modified_xor_shift}{}\label{class_modified_xor_shift}\index{ModifiedXorShift@{ModifiedXorShift}}
+
+
+Генератор на основе алгоритма Xor\+Shift128.  
+
+
+
+
+{\ttfamily \+\#include $<$Modified\+Xor\+Shift.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_modified_xor_shift_a0ff4f9e4e7ebcadd841e1a518c49b517}{Modified\+Xor\+Shift}} (uint32\+\_\+t seed)
+\begin{DoxyCompactList}\small\item\em Конструктор. \end{DoxyCompactList}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{class_modified_xor_shift_ab9a3655bbf6319cba91b46a5d83b17e9}{next}} ()
+\begin{DoxyCompactList}\small\item\em Генерирует 32-\/битное число. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_modified_xor_shift_afa175e82f1e188c58fd2034fa97ce9f4}{next\+Double}} ()
+\begin{DoxyCompactList}\small\item\em Генерирует число double в \+[0, 1). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Генератор на основе алгоритма Xor\+Shift128. 
+
+Состояние из четырёх 32-\/битных слов. В конце каждого цикла к выходному значению прибавляется предыдущее состояние y для усиления нелинейности. 
+
+\label{doc-constructors}
+\Hypertarget{class_modified_xor_shift_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_modified_xor_shift_a0ff4f9e4e7ebcadd841e1a518c49b517}\index{ModifiedXorShift@{ModifiedXorShift}!ModifiedXorShift@{ModifiedXorShift}}
+\index{ModifiedXorShift@{ModifiedXorShift}!ModifiedXorShift@{ModifiedXorShift}}
+\doxysubsubsection{\texorpdfstring{ModifiedXorShift()}{ModifiedXorShift()}}
+{\footnotesize\ttfamily \label{class_modified_xor_shift_a0ff4f9e4e7ebcadd841e1a518c49b517} 
+Modified\+Xor\+Shift::\+\+Modified\+Xor\+Shift (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{seed}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Конструктор. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em seed} & Начальное зерно (используется для инициализации всех слов). \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_modified_xor_shift_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_modified_xor_shift_ab9a3655bbf6319cba91b46a5d83b17e9}\index{ModifiedXorShift@{ModifiedXorShift}!next@{next}}
+\index{next@{next}!ModifiedXorShift@{ModifiedXorShift}}
+\doxysubsubsection{\texorpdfstring{next()}{next()}}
+{\footnotesize\ttfamily \label{class_modified_xor_shift_ab9a3655bbf6319cba91b46a5d83b17e9} 
+uint32\+\_\+t Modified\+Xor\+Shift::\+next (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Генерирует 32-\/битное число. 
+
+\Hypertarget{class_modified_xor_shift_afa175e82f1e188c58fd2034fa97ce9f4}\index{ModifiedXorShift@{ModifiedXorShift}!nextDouble@{nextDouble}}
+\index{nextDouble@{nextDouble}!ModifiedXorShift@{ModifiedXorShift}}
+\doxysubsubsection{\texorpdfstring{nextDouble()}{nextDouble()}}
+{\footnotesize\ttfamily \label{class_modified_xor_shift_afa175e82f1e188c58fd2034fa97ce9f4} 
+double Modified\+Xor\+Shift::\+next\+Double (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Генерирует число double в \+[0, 1). 
+
+
+
+Объявления и описания членов классов находятся в файлах:\+\begin{DoxyCompactItemize}
+\item 
+src/\+\doxymbox{\hyperlink{_modified_xor_shift_8h}{Modified\+Xor\+Shift.\+h}}\item 
+src/\+\doxymbox{\hyperlink{_modified_xor_shift_8cpp}{Modified\+Xor\+Shift.\+cpp}}\end{DoxyCompactItemize}
